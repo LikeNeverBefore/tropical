@@ -179,6 +179,12 @@ body {
   transform: scaleY(1);
 }
 
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
+  background-color: #1755e7;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -391,7 +397,7 @@ body {
 .offers__option-info {
   padding: 2em;
   background-color: #fff;
-  z-index: 10;
+  z-index: 3;
 }
 .offers__option-heading {
   margin-bottom: 0.5em;
